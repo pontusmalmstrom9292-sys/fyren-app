@@ -11,6 +11,7 @@ Fyren är en svensk wellness-app som hjälper användare att bygga hållbara rut
 - **Typografi:** Elegant sans-serif, tydlig hierarki
 - **Estetik:** Premium, lugnt, minimalistiskt — som en fyr i mörkret
 - **Språk:** Svenska genomgående
+- **Antal skärmar:** 63
 
 ### Figma-fil
 
@@ -27,13 +28,10 @@ Bottom tab bar med fyra flikar:
 | **Dagbok** | Journalföring, reflektioner, tacksamhet |
 | **Mer** | Profil, inställningar, premium |
 
-## Skärminventering
+## Dokumentation
 
-Se [docs/screens.md](docs/screens.md) för komplett lista.
-
-## Designbeslut
-
-Se [docs/design-decisions.md](docs/design-decisions.md) för dokumenterade val.
+- [Skärminventering](docs/screens.md) — komplett lista över alla 63 skärmar
+- [Designbeslut](docs/design-decisions.md) — dokumenterade designval
 
 ---
 

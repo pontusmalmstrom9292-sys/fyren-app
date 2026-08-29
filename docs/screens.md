@@ -1,106 +1,97 @@
 # Skärminventering
 
-Komplett lista över alla skärmar i Fyren-appen.
+Komplett lista över alla skärmar i Fyren-appen. Automatiskt genererad från Figma-filen.
 
 ## Kärnskärmar
 
-| Skärm | Beskrivning | Status |
-|-------|-------------|--------|
-| `hem` | Hemskärm med daglig översikt, närvaro-streak och kompassråd | ✅ Klar |
-| `fyren` | Huvudvy — fyrens ikon, citat, närvaro och ritual | ✅ Klar |
-| `liv-och-gora` | Dagliga uppgifter och att-göra-lista | ✅ Klar |
-| `dagbok` | Dagboksöversikt med journalhistorik | ✅ Klar |
-| `dagbok-skriv` | Skriva ny dagboksanteckning | ✅ Klar |
-| `dagbok-journal` | Journalvy med reflektionsprompts | ✅ Klar |
-| `valvet` | Dokumentarkiv och sparade resurser | ✅ Klar |
-| `meny` | Menynavigering | ✅ Klar |
-| `profil` | Användarprofil | ✅ Klar |
+| Skärm | Figma Node | Status |
+|-------|-----------|--------|
+| `hem` | 178:10 | ✅ Klar |
+| `hem-landing` | 134:2 | ✅ Klar |
+| `fyren` | 178:213 | ✅ Klar |
+| `liv-och-gora` | 178:113 | ✅ Klar |
+| `dagbok` | 178:281 | ✅ Klar |
+| `dagbok-skriv` | 161:4 | ✅ Klar |
+| `dagbok-journal` | 134:666 | ✅ Klar |
+| `valvet` | 178:353 | ✅ Klar |
+| `meny` | 178:436 | ✅ Klar |
+| `profil` | 134:905 | ✅ Klar |
 
 ## Planering & Mål
 
-| Skärm | Beskrivning | Status |
-|-------|-------------|--------|
-| `planering-aktiv` | Aktiv planeringsvy | ✅ Klar |
-| `mal-detalj` | Måldetalj med progress och milstolpar | ✅ Klar |
-| `fyrmal-detalj` | Fyrmål-detalj med progressring (72%) | ✅ Klar |
-| `veckovy` | Veckoöversikt | ✅ Klar |
-| `dagvy` | Dagsplanering | ✅ Klar |
-| `vanor` | Vanespårning | ✅ Klar |
-| `listor` | Att-göra-listor | ✅ Klar |
+| Skärm | Figma Node | Status |
+|-------|-----------|--------|
+| `planering-aktiv` | 134:521 | ✅ Klar |
+| `fyrmal-detalj` | 259:143 | ✅ Klar |
+| `dagvy` | 272:7 | ✅ Klar |
+| `vanor` | 248:7 | ✅ Klar |
+| `morgonrutin` | 266:251 | ✅ Klar |
+| `rutin-editor` | 228:10 | ✅ Klar |
 
 ## Hälsa & Välmående
 
-| Skärm | Beskrivning | Status |
-|-------|-------------|--------|
-| `mabra-checkin` | Välmående-checkin med emojis | ✅ Klar |
-| `tacksamhet` | Tacksamhetsövning | ✅ Klar |
-| `fokus` | Fokusläge | ✅ Klar |
-| `meditation` | Meditationsvy | ✅ Klar |
-| `ritual-timer` | Ritual-timer med guldring-countdown | ✅ Klar |
-| `ritual-bibliotek` | Bläddra bland ritualer med kategorifilter | ✅ Klar |
-| `halso-dashboard` | Hälsoöversikt med statistik | ✅ Klar |
-| `somn` | Sömnspårning | ✅ Klar |
-| `traning` | Träningsvy | ✅ Klar |
-| `traning-enriched` | Utökad träningsvy | ✅ Klar |
+| Skärm | Figma Node | Status |
+|-------|-----------|--------|
+| `mabra-checkin` | 134:251 | ✅ Klar |
+| `halsa` | 208:177 | ✅ Klar |
+| `halso-dashboard` | 272:162 | ✅ Klar |
+| `meditation` | 235:7 | ✅ Klar |
+| `ritual-timer` | 259:97 | ✅ Klar |
+| `ritual-bibliotek` | 266:10 | ✅ Klar |
+| `somn` | 248:610 | ✅ Klar |
 
 ## Reflektion & Insikter
 
-| Skärm | Beskrivning | Status |
-|-------|-------------|--------|
-| `veckosammanfattning` | Veckostatistik med humörtrend och streak | ✅ Klar |
-| `veckoreflektion` | Veckoreflektion | ✅ Klar |
-| `humor-kalender` | Månadsvy med humör-emojis per dag | ✅ Klar |
-| `reflektion-historik` | Tidslinje över tidigare reflektioner | ✅ Klar |
-| `insikter` | Insikter och trender | ✅ Klar |
-| `statistik` | Statistik och data | ✅ Klar |
-| `journal-entry` | Enskild journalanteckning | ✅ Klar |
+| Skärm | Figma Node | Status |
+|-------|-----------|--------|
+| `veckosammanfattning` | 259:30 | ✅ Klar |
+| `veckoreflektion` | 248:150 | ✅ Klar |
+| `humor-kalender` | 266:156 | ✅ Klar |
+| `reflektion-historik` | 266:368 | ✅ Klar |
+| `insikter` | 226:60 | ✅ Klar |
+| `journal-entry` | 215:55 | ✅ Klar |
+| `prestationer` | 266:96 | ✅ Klar |
 
 ## Familj & Socialt
 
-| Skärm | Beskrivning | Status |
-|-------|-------------|--------|
-| `familj` | Familjeöversikt | ✅ Klar |
-| `familjemedlem` | Enskild familjemedlem | ✅ Klar |
-| `familj-kalender` | Familjekalender | ✅ Klar |
-| `familj-planering` | Familjeplanering | ✅ Klar |
-| `familj-aktivitet` | Familjeaktivitet | ✅ Klar |
-| `community` | Anonyma delade reflektioner | ✅ Klar |
+| Skärm | Figma Node | Status |
+|-------|-----------|--------|
+| `familj` | 208:7 | ✅ Klar |
+| `familjemedlem` | 228:112 | ✅ Klar |
+| `familj-planering` | 248:222 | ✅ Klar |
+| `familj-aktivitet` | 272:321 | ✅ Klar |
+| `community` | 266:320 | ✅ Klar |
 
 ## Ekonomi
 
-| Skärm | Beskrivning | Status |
-|-------|-------------|--------|
-| `ekonomi` | Ekonomiöversikt | ✅ Klar |
-| `budget` | Budgetvy | ✅ Klar |
-| `transaktioner` | Transaktionshistorik | ✅ Klar |
-| `kvitto-skanner` | Kvittoskanner | ✅ Klar |
+| Skärm | Figma Node | Status |
+|-------|-----------|--------|
+| `ekonomi` | 208:89 | ✅ Klar |
+| `budget` | 248:498 | ✅ Klar |
+| `transaktioner` | 228:190 | ✅ Klar |
 
 ## System & Onboarding
 
-| Skärm | Beskrivning | Status |
-|-------|-------------|--------|
-| `välkommen` | Onboarding-välkomstskärm med CTA | ✅ Klar |
-| `valkomst` | Välkomstflöde | ✅ Klar |
-| `onboarding-setup` | Onboarding-setup | ✅ Klar |
-| `notiser` | Notifikationslista | ✅ Klar |
-| `inställningar` | Inställningar med konto och påminnelser | ✅ Klar |
-| `installningar` | Inställningar (alternativ version) | ✅ Klar |
-| `sok` | Sökvy | ✅ Klar |
-| `premium` | Premium-uppgradering | ✅ Klar |
-| `prestationer` | Badges och achievements | ✅ Klar |
-| `morgonrutin` | Morgonrutin-byggare med checklista | ✅ Klar |
-| `rutin-editor` | Redigera rutiner | ✅ Klar |
+| Skärm | Figma Node | Status |
+|-------|-----------|--------|
+| `välkommen` | 259:10 | ✅ Klar |
+| `valkomst` | 209:8 | ✅ Klar |
+| `onboarding-setup` | 226:7 | ✅ Klar |
+| `notiser` | 259:201 | ✅ Klar |
+| `inställningar` | 259:259 | ✅ Klar |
+| `installningar` | 209:133 | ✅ Klar |
+| `sok` | 209:239 | ✅ Klar |
+| `premium` | 235:196 | ✅ Klar |
 
 ## Övrigt
 
-| Skärm | Beskrivning | Status |
-|-------|-------------|--------|
-| `kompass-chat` | AI-kompass konversation | ✅ Klar |
-| `aktivitet-detalj` | Aktivitetsdetalj | ✅ Klar |
-| `inkast` | Snabbinmatning | ✅ Klar |
-| `valvet-dokument` | Dokumentvy i valvet | ✅ Klar |
-| `handelse` | Händelsevy | ✅ Klar |
+| Skärm | Figma Node | Status |
+|-------|-----------|--------|
+| `kompass-chat` | 215:7 | ✅ Klar |
+| `aktivitet-detalj` | 215:122 | ✅ Klar |
+| `inkast` | 226:172 | ✅ Klar |
+| `handelse` | 248:714 | ✅ Klar |
 
 ---
 
-**Totalt: ~65 skärmar** | Senast uppdaterad: 2026-08-29
+**Totalt: 63 skärmar** | Senast uppdaterad: 2026-08-29
